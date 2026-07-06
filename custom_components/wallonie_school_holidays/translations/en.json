@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "FW-B School Holidays",
+        "description": "Choose which school calendar to follow. You can add this integration a second time to also follow the other type in parallel.",
+        "data": {
+          "calendar_type": "Calendar type"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This calendar type is already configured."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "school_holiday_today": {
+        "name": "School holiday today"
+      }
+    }
+  }
+}

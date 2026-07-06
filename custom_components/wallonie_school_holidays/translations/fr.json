@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Congés scolaires FW-B",
+        "description": "Choisissez le calendrier scolaire à suivre. Vous pouvez ajouter cette intégration une seconde fois pour suivre l'autre type en parallèle.",
+        "data": {
+          "calendar_type": "Type de calendrier"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ce type de calendrier est déjà configuré."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "school_holiday_today": {
+        "name": "Congé scolaire aujourd'hui"
+      }
+    }
+  }
+}

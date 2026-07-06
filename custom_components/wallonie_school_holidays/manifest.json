@@ -1,0 +1,11 @@
+{
+  "domain": "wallonie_school_holidays",
+  "name": "Congés scolaires FW-B (Wallonie-Bruxelles)",
+  "codeowners": ["@your-github-username"],
+  "config_flow": true,
+  "documentation": "https://github.com/your-github-username/ha-wallonie-school-holidays",
+  "issue_tracker": "https://github.com/your-github-username/ha-wallonie-school-holidays/issues",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
