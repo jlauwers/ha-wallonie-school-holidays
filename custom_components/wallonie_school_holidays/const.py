@@ -6,12 +6,6 @@ DOMAIN = "wallonie_school_holidays"
 # Page officielle listant les liens vers les calendriers .ics
 CALENDAR_PAGE_URL = "https://www.enseignement.be/calendrier-scolaire"
 
-# Les fichiers .ics sont hébergés sous ce dossier ; on scrape la page ci-dessus
-# pour retrouver dynamiquement les noms de fichiers (qui changent chaque année
-# scolaire et ne suivent pas un schéma fiable), donc pas besoin de les
-# coder en dur.
-ICS_BASE_URL = "https://www.enseignement.be/"
-
 # Types de calendrier disponibles sur le site, avec le motif présent dans le
 # nom de fichier .ics permettant de les identifier.
 CALENDAR_TYPE_OBLIGATOIRE = "obligatoire"
